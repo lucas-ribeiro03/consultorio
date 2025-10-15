@@ -11,7 +11,7 @@ export const Input = ({ type, labelText, ...props }: InputProps) => {
 
   const id = useId();
   return (
-    <div>
+    <div className="w-[100%]">
       <label className="block ml-2 mb-1 text-sm" htmlFor={id}>
         {labelText}
       </label>
