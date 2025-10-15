@@ -1,4 +1,5 @@
 export type PatientModel = {
+  id: string;
   nome: string;
   matricula: number;
   idade: string;
@@ -6,4 +7,5 @@ export type PatientModel = {
   tel1: string;
   tel2: string;
   convenio: string;
+  cpf: string;
 };
