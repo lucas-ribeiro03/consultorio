@@ -42,7 +42,7 @@ export class DrizzleAppointmentRepository implements AppointmentRepository {
     return scheduleOutOfArrayWithCompatibleDate;
   }
 
-  async findByPatientMatricula(matricula: string): Promise<AppointmentModel> {
+  async findByPatientMatricula(matricula: number): Promise<AppointmentModel> {
     if (!matricula) {
       throw new Error("Dados inválidos");
     }
