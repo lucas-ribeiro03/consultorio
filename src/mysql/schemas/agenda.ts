@@ -4,6 +4,7 @@ export const AgendaTable = sqliteTable("agenda", {
   id: integer("id").primaryKey(),
   dia: integer("dia").notNull(),
   mes: integer("mes").notNull(),
+  ano: integer("mes").notNull(),
   hora: text("hora").notNull(),
   status: text("status").notNull(),
 });
