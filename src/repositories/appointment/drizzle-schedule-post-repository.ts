@@ -1,5 +1,5 @@
 import { AppointmentModel } from "@/models/appointment-model";
-import { AppointmentRepository } from "./schedule-repository";
+import { AppointmentRepository } from "./appointment-repository";
 import { drizzleDb } from "@/mysql";
 import { PatientTable } from "@/mysql/schemas/patient";
 import { AppointmentTable } from "@/mysql/schemas/appointment";
