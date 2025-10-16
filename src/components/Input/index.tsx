@@ -7,7 +7,7 @@ type InputProps = {
 } & React.ComponentProps<"input">;
 export const Input = ({ type, labelText, ...props }: InputProps) => {
   const inputClasses =
-    "bg-amber-50 outline-0 px-3 py-1.5 border-2 border-gray-300 rounded-xl";
+    "bg-black outline-0 px-3 py-1.5 border-0 border-gray-300 rounded-xl focus:border-1";
 
   const id = useId();
   return (
