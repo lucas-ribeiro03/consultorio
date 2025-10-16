@@ -5,6 +5,7 @@ import { AgendaTable } from "./agenda";
 export const ScheduleTable = sqliteTable("marcacoes", {
   id: integer("id").primaryKey(),
   tipo: text("tipo").notNull(),
+  data: text("data").notNull(),
   status: text("status").notNull(),
   formaPgto: text("formaPgto").notNull(),
   valor: integer("valor").notNull(),
